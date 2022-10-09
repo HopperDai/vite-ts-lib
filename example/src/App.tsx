@@ -1,9 +1,13 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import ViteTs from '@inner/lib';
 
 function App() {
   const [count, setCount] = useState(0)
+  useEffect(() => {
+    ViteTs()
+  }, [])
 
   return (
     <div className="App">

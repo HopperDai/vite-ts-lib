@@ -7,7 +7,8 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'lib/main.ts'),
       name: 'ViteTs',
-      fileName: (format) => `index.${format}.js`,
+      // fileName: (format) => `index.${format}.js`,
+      fileName: 'index',
     }
   }
 })

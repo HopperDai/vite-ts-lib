@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 使用 yarn ，因此忽略 npm 相关的配置文件
+package-lock.json
