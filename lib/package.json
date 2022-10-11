@@ -2,7 +2,7 @@
   "name": "@inner/lib",
   "version": "1.0.0",
   "description": "项目内部用于开发调试的包",
-  "main": "main.ts",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

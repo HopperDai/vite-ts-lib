@@ -1,14 +1,13 @@
 {
-  "name": "vite-ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vite-ts-lib-frame",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "yarn l && yarn dev:example",
     "dev:example": "yarn --cwd example dev",
     "l": "yarn --cwd lib link && yarn --cwd example link '@inner/lib'",
     "ii": "yarn && yarn --cwd example",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "preview": "vite preview"
   },
   "dependencies": {},
